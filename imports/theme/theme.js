@@ -36,7 +36,7 @@
   };
   var removeBounce = function() {
     if ($('p.bounce').length > 0) {
-      $('p.bounce').removeClass('bounce');
+      $('p.bounce').removeClass('bounce').slideUp();
     }
   }
   // Collapse now if page is not at top
@@ -45,18 +45,6 @@
   $(window).scroll(navbarCollapse);
   // Remove bounce classes on icons when page is scrolled
   $(window).scroll(removeBounce);
-
-  // Scroll reveal calls
-  window.sr = ScrollReveal();
-  sr.reveal('.sr-icons', {
-    duration: 500,
-    opacity: 0,
-    distance: '5px'
-  }, 200);
-  sr.reveal('.sr-button', {
-    duration: 1000,
-    delay: 200
-  });
 
 })(jQuery); // End of use strict
 

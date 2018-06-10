@@ -317,7 +317,7 @@ header.masthead p.scroll-down{
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 90vh;
+    height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;

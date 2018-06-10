@@ -16,7 +16,9 @@ fontawesome.library.add(faEnvelope);
 fontawesome.library.add(faChevronDown);
 
 Template.contact.onRendered(function() {
-  window.scrollTo(0, 0);
+  sr.reveal('.display-4', {duration: 1000});
+  sr.reveal('.item', {duration: 500}, 50 );
+  sr.reveal('.google-maps-address', {duration: 1500}, 50 );
 });
 
 

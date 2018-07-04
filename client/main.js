@@ -48,4 +48,8 @@ Template.home.onRendered(function() {
     container: '.sr-containers',
   }, 100)
   sr.reveal('.section-heading', {duration: 300}, 50);
-})
+});
+
+Template.footer.onRendered(function() {
+  this.$('[data-toggle="tooltip"]').tooltip();
+});

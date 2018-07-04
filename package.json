@@ -2,14 +2,14 @@
   "name": "mkglaw",
   "private": true,
   "scripts": {
-    "start": "meteor",
-    "prestart": "meteor npm install --save"
+    "start": "meteor run",
+    "prestart": "meteor npm install --save @fortawesome/fontawesome-free-brands"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.42",
     "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "bootstrap": "^4.0.0",
     "gmail-send": "^1.2.14",
     "jquery": "^3.3.1",

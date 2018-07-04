@@ -14,11 +14,13 @@ import faUsers from '@fortawesome/fontawesome-free-solid/faUsers';
 import faGavel from '@fortawesome/fontawesome-free-solid/faGavel';
 import faBook from '@fortawesome/fontawesome-free-solid/faBook';
 import faChevronDown from '@fortawesome/fontawesome-free-solid/faChevronDown';
+import faLinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedIn';
 
 fontawesome.library.add(faUsers);
 fontawesome.library.add(faGavel);
 fontawesome.library.add(faBook);
 fontawesome.library.add(faChevronDown);
+fontawesome.library.add(faLinkedIn);
 
 Template.main.onRendered(function() {
   import '/imports/theme/theme.js';

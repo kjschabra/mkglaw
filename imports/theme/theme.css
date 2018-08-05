@@ -91,6 +91,16 @@ section li {
   font-size: 1.15rem;
 }
 
+section#nav-areas-practice {
+  padding-top: 0.5rem;
+}
+  section#nav-areas-practice ul.nav li:hover {
+    background: #972e3f;
+  }
+  section#nav-areas-practice ul.nav li:hover a {
+    color:#FFF;
+  }
+
 section#practices-injury-law {
   padding-top: 2rem;
   padding-bottom: calc(10rem - 56px);
@@ -141,7 +151,7 @@ section#traffic-tickets-law {
 
 section#contact-page address {
   color:#333;
-} 
+}
 
 iframe.google-maps-address {
   width: 100%;

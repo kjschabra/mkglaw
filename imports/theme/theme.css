@@ -97,52 +97,13 @@ section#nav-areas-practice ul.nav li:hover a {
   text-decoration: underline;
 }
 
-section#practices-injury-law {
+section.practices {
   padding-top: 2rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("images/personal-injury.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  color: #fff;
 }
-
-section#real-estate-law {
-  padding-top: 2rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("images/toronto.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-}
-
-section#wills-law {
-  padding-top: 2rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("images/wills-estates.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-}
-
-section#traffic-tickets-law {
-  padding-top: 2rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("images/cop.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
+section.practices > a {
+  color: #212529;
 }
 
 section#contact-page address {
